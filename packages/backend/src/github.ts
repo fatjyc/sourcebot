@@ -262,3 +262,5 @@ const getRepos = async (repoList: string[], octokit: Octokit, signal: AbortSigna
 
     return repos;
 }
+
+export { logger };
