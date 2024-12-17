@@ -167,3 +167,6 @@ export const getGitLabReposFromConfig = async (config: GitLabConfig, ctx: AppCon
 
     return repos;
 }
+
+
+export { logger, GITLAB_CLOUD_HOSTNAME };
