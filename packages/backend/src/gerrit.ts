@@ -124,3 +124,6 @@ const fetchAllProjects = async (url: string): Promise<GerritProjects> => {
 
    return allProjects;
 };
+
+
+export { logger };
