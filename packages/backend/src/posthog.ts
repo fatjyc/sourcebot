@@ -29,3 +29,5 @@ export function captureEvent<E extends PosthogEvent>(event: E, properties: Posth
 }
 
 await posthog?.shutdown();
+
+export { posthog };
