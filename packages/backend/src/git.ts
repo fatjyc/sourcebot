@@ -49,3 +49,5 @@ export const fetchRepository = async (repo: GitRepository, onProgress?: (event: 
         ]
     );
 }
+
+export { logger };
