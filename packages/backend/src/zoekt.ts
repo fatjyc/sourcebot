@@ -43,3 +43,5 @@ export const indexLocalRepository = async (repo: LocalRepository, settings: Sett
         })
     });
 }
+
+export { ALWAYS_EXCLUDED_DIRS };
