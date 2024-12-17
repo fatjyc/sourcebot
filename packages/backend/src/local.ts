@@ -69,3 +69,5 @@ export const initLocalRepoFileWatchers = (repos: LocalRepository[], onUpdate: (r
             fileWatchers.set(repo.id, watcher);
         });
 }
+
+export { logger, fileWatchers, abortControllers };
