@@ -211,3 +211,5 @@ const paginate = async <T>(request: (page: number) => Promise<HttpResponse<T[], 
 
     return output;
 }
+
+export { logger, paginate };
